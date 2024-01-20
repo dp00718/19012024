@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+        .header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: lightpink;
+            padding: 10px 20px;
+            height: 100px;
+            text-size-adjust: 20px;
+    .symbol{
+        border: 2px solid blue;
+    }
+    text-shadow: 0 0 10px yellow, 0 0 10px red;
+    
+    .login, .cart, .seller{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: normal;
+        gap: 20px;
+        
+    
+    }
+    
+    
+        }
+    
+.part2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 20px;
+    list-style: none;
+    color: white;
+    height: fit-content;
+    /* border: 2px dashed black; */
+
+}
+h3{
+    cursor: pointer;
+    border-top: 2px solid black;
+    /* background-color: lightblue; */
+    font-size: 30px;
+    color: white;
+
+}
+.dropdown{
+    background-color: black;
+}
+
+
+
+.list{
+    display: none;
+    border-top: 2px solid black;
+    position: absolute;
+    background-color: lightseagreen;
+    /* text-decoration-color: lightpink; */
+}
+.dropdown:hover .list{
+    display: block;
+    background-color: lightpink;
+}
+.dropdown:hover h3{
+    background-color: lightgreen;
+    color: black;
+    }
+
+li{
+    border-top: 2px solid black;
+    background-color: lightskyblue;
+    font-size: 30px;
+    color: black;
+    text-decoration: solid;
+}
+.Main1{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.Gradient1{
+    transition: transform 1.5s;
+    height: 200px;
+    width: 500px;
+    margin-top: 150px;
+    background-image: linear-gradient(to right, yellow, green );
+    text-align: center;
+    font-size: 50px;
+    /* vertical-align: center; */
+    line-height: 200px;
+    justify-content: center;
+    border: 3px solid black;
+    /* display: flex; */
+    
+}
+.Gradient2{
+    transition:transform 1s;
+    height: 200px;
+    width: 500px;
+    background-image: radial-gradient(blue, yellow,white);
+    margin-top: 150px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 50px;
+    /* vertical-align: center; */
+    line-height: 200px;
+    justify-content: center;
+    border: 3px solid black;
+    color: skyblue;
+}
+.Gradient2:hover{
+    transform: rotate(360deg);
+    /* display: block; */
+}
+.Gradient1:hover{
+    transform: translate(985px, 0);
+}
+
+
+
+
+
+
+
+
+
